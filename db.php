@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root"; // Replace with your DB username
-$password = ""; // Replace with your DB password
-$dbname = "vegetable_store";
+$username = "root";  // Replace with your MySQL username
+$password = "";  // Replace with your MySQL password
+$dbname = "user_registration";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
